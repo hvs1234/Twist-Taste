@@ -1,0 +1,138 @@
+body::before{
+    content: "";
+    background: url("order logo.jpg") no-repeat center center/cover;
+    opacity: 0.6;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    height: 175%;
+    filter: blur(6px);
+}
+
+.container-1 ul {
+    display: flex;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    width: 97.3%;
+    background-color: black;
+    color: white;
+}
+
+.container-1 ul li {
+    padding: 10px 20px;
+    list-style: none;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container-1 ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.container-1 ul li a:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+.head {
+    position: relative;
+    top: 30px;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(34, 1, 1);
+    text-shadow: 4px 4px 6px rgb(5, 255, 255);
+    font-size: 4em;
+}
+
+.container-2 {
+    position: relative;
+    top: -40px;
+    right: 70px;
+    display: flex;
+}
+
+.form {
+    position: relative;
+    left: 500px;
+    top: 50px;
+}
+
+.form h3 {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: monospace;
+    color: rgb(11, 34, 11);
+}
+
+.form input,textarea {
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 1.2em;
+    color: darkblue;
+}
+
+.form input{
+    width: 150%;
+    margin: 10px 0px;
+    padding: 10px 10px;
+    box-shadow: 4px 4px 6px rgb(36, 1, 50);
+    font-family: monospace;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.form textarea{
+    width: 146%;
+    height: 10%;
+    margin: 10px 0px;
+    font-family: monospace;
+    font-size: 1.5em;
+    font-weight: 800;
+    box-shadow: 6px 6px 6px rgb(36, 1, 50);
+}
+
+#message {
+    padding: 10px 20px;
+}
+
+.btn {
+    font-size: 2em;
+    position: relative;
+    left: 620px;
+    top: 100px;
+    font-family: monospace;
+    font-weight: 800;
+    color: darkmagenta;
+    background-color: lightgreen;
+    border-radius: 30px;
+    padding: 10px 10px;
+    width: 100%;
+    border: 2px solid rgb(1, 53, 1);
+}
+
+.btn:hover {
+    color: rgb(9, 1, 60);
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    top: 1292px;
+    height: 8%;
+    font-family: monospace;
+    background-color: black;
+    color: white;
+}

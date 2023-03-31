@@ -1,0 +1,87 @@
+body {
+    color: white;
+}
+
+body::before{
+    content: "";
+    background: url("servies logo.jpg") no-repeat center center/cover;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 2;
+    filter: saturate(2);
+}
+
+.navbar ul {
+    position: absolute;
+    display: flex;
+    background-color: black;
+    list-style: none;
+    padding: 10px 10px;
+    top: 0px;
+    left: 0px;
+    padding: 20px 0px;
+    margin: 0px 0px;
+    width: 100%;
+}
+
+.navbar ul li a {
+    position: relative;
+    left: 20px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+.container-2 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 50%;
+    height: 760px;
+}
+
+.container-2 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    position: relative;
+    left: 20px;
+    text-shadow: 2px 2px 2px darkcyan;
+}
+
+.container-2 h3 {
+    position: relative;
+    left: 60px;
+    width: 90%;
+    bottom: 60px;
+    color: rgb(218, 218, 213);
+    font-size: 1.5em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container-2 h4 {
+    position: relative;
+    bottom: -10px;
+    font-size: 1.5em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.blank {
+    position: absolute;
+    top: 1500px;
+    width: 100%;
+    height: 100%;
+}
